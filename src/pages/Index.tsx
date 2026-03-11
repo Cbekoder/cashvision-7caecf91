@@ -81,12 +81,12 @@ const Index = () => {
 
         {/* Reviews */}
         <div className="mb-8">
-          <h2 className="text-lg font-display font-bold text-foreground mb-3">Ratings and reviews</h2>
+          <h2 className="text-lg font-display font-bold text-foreground mb-3">Baholar va sharhlar</h2>
           <div className="flex items-center gap-4 mb-5">
             <div className="text-center">
               <p className="text-5xl font-display font-bold text-foreground">4.5</p>
               <StarRating rating={4.5} size={16} />
-              <p className="text-xs text-muted-foreground mt-1">1,247 reviews</p>
+              <p className="text-xs text-muted-foreground mt-1">1 247 ta sharh</p>
             </div>
             <div className="flex-1 space-y-1">
               {[5, 4, 3, 2, 1].map((star) => {
