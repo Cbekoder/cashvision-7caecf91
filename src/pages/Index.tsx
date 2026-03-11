@@ -54,28 +54,28 @@ const Index = () => {
 
         {/* Description */}
         <div className="mb-8">
-          <h2 className="text-lg font-display font-bold text-foreground mb-3">About this app</h2>
+          <h2 className="text-lg font-display font-bold text-foreground mb-3">Ilova haqida</h2>
           <div className="text-sm text-muted-foreground leading-relaxed space-y-3">
             <p>
-              CashVision is an accessibility-focused application designed to help blind and visually impaired people easily identify paper currency. Using advanced camera recognition technology, the app scans banknotes and instantly announces their value through clear audio feedback.
+              CashVision — ko'rish qobiliyati cheklangan va ojiz odamlarga qog'oz pullarni osongina aniqlashga yordam berish uchun mo'ljallangan ilovadir. Ilg'or kamera texnologiyasi yordamida ilova banknotlarni skanerlaydi va ularning qiymatini ovozli tarzda darhol e'lon qiladi.
             </p>
             <p>
-              Simply point your phone's camera at a banknote, and CashVision will detect and identify the denomination in real time. The app is designed with a simple and intuitive interface so users can operate it quickly and independently.
+              Telefoningiz kamerasini banknotga qarating va CashVision real vaqtda denominatsiyani aniqlaydi. Ilova oddiy va intuitiv interfeysga ega bo'lib, foydalanuvchilar tez va mustaqil foydalanishlari mumkin.
             </p>
             <p>
-              CashVision helps users manage everyday financial tasks with greater confidence and independence. Whether receiving change, organizing cash, or verifying banknotes, the app provides fast and reliable identification.
+              CashVision foydalanuvchilarga kundalik moliyaviy vazifalarni ko'proq ishonch va mustaqillik bilan boshqarishga yordam beradi. Qaytim olish, naqd pulni tartiblash yoki banknotlarni tekshirish — ilova tez va ishonchli aniqlash imkonini beradi.
             </p>
             <div className="pt-2">
-              <p className="text-foreground font-medium mb-2">Key Features</p>
+              <p className="text-foreground font-medium mb-2">Asosiy imkoniyatlar</p>
               <ul className="space-y-1.5">
-                <li>📷 Real-time banknote recognition using your phone's camera</li>
-                <li>🔊 Voice feedback that clearly announces the detected currency value</li>
-                <li>⚡ Fast and accurate detection for everyday use</li>
-                <li>♿ Accessibility-first design optimized for blind and visually impaired users</li>
-                <li>📱 Simple and easy-to-use interface</li>
+                <li>📷 Telefoningiz kamerasi orqali real vaqtda banknotlarni aniqlash</li>
+                <li>🔊 Aniqlangan valyuta qiymatini aniq aytib beruvchi ovozli javob</li>
+                <li>⚡ Kundalik foydalanish uchun tez va aniq aniqlash</li>
+                <li>♿ Ko'rish qobiliyati cheklangan foydalanuvchilar uchun optimallashtirilgan dizayn</li>
+                <li>📱 Oddiy va qulay interfeys</li>
               </ul>
             </div>
-            <p>CashVision aims to make daily financial interactions easier, safer, and more accessible for everyone.</p>
+            <p>CashVision kundalik moliyaviy muomalalarni osonroq, xavfsizroq va hammaga qulay qilishga qaratilgan.</p>
           </div>
         </div>
 
