@@ -11,10 +11,10 @@ import screenshot4 from "@/assets/screenshot-4.png";
 const APK_URL = "/CashVision.apk";
 
 const reviews = [
-  { name: "Alex M.", rating: 5, text: "This app is a lifesaver! It instantly identifies bills and reads them out loud. Highly recommend for anyone with low vision.", date: "Jan 15, 2026" },
-  { name: "Sarah K.", rating: 4, text: "Works very well in good lighting. Sometimes struggles in the dark, but overall fantastic accessibility tool.", date: "Feb 2, 2026" },
-  { name: "Mohammed R.", rating: 5, text: "Finally an app that actually works for currency recognition. The voice feedback is clear and fast.", date: "Feb 28, 2026" },
-  { name: "Linda T.", rating: 5, text: "My grandmother uses this daily. She can now independently verify her change at the store. Thank you!", date: "Mar 5, 2026" },
+  { name: "Ali M.", rating: 5, text: "Bu ilova juda foydali! Pullarni bir zumda aniqlaydi va ovozli aytib beradi. Ko'rish qobiliyati past bo'lganlarga tavsiya qilaman.", date: "2026-yil 15-yan" },
+  { name: "Sarvinoz K.", rating: 4, text: "Yaxshi yoritilgan joyda juda yaxshi ishlaydi. Ba'zan qorong'ida qiyinchilik bo'ladi, lekin umuman ajoyib vosita.", date: "2026-yil 2-fev" },
+  { name: "Muhammad R.", rating: 5, text: "Nihoyat valyutani aniqlash uchun haqiqatan ishlaydi. Ovozli javob tez va aniq.", date: "2026-yil 28-fev" },
+  { name: "Dilnoza T.", rating: 5, text: "Buvim har kuni foydalanadi. Endi do'konda pulni mustaqil tekshira oladi. Rahmat!", date: "2026-yil 5-mar" },
 ];
 
 const Index = () => {
@@ -36,7 +36,7 @@ const Index = () => {
             <div className="flex items-center gap-2 mt-2">
               <span className="text-sm font-medium text-foreground">4.5</span>
               <StarRating rating={4.5} />
-              <span className="text-sm text-muted-foreground">1,247 reviews</span>
+              <span className="text-sm text-muted-foreground">1 247 ta sharh</span>
             </div>
             <p className="text-xs text-muted-foreground mt-1">99.1 MB</p>
           </div>
@@ -54,39 +54,39 @@ const Index = () => {
 
         {/* Description */}
         <div className="mb-8">
-          <h2 className="text-lg font-display font-bold text-foreground mb-3">About this app</h2>
+          <h2 className="text-lg font-display font-bold text-foreground mb-3">Ilova haqida</h2>
           <div className="text-sm text-muted-foreground leading-relaxed space-y-3">
             <p>
-              CashVision is an accessibility-focused application designed to help blind and visually impaired people easily identify paper currency. Using advanced camera recognition technology, the app scans banknotes and instantly announces their value through clear audio feedback.
+              CashVision — ko'rish qobiliyati cheklangan va ojiz odamlarga qog'oz pullarni osongina aniqlashga yordam berish uchun mo'ljallangan ilovadir. Ilg'or kamera texnologiyasi yordamida ilova banknotlarni skanerlaydi va ularning qiymatini ovozli tarzda darhol e'lon qiladi.
             </p>
             <p>
-              Simply point your phone's camera at a banknote, and CashVision will detect and identify the denomination in real time. The app is designed with a simple and intuitive interface so users can operate it quickly and independently.
+              Telefoningiz kamerasini banknotga qarating va CashVision real vaqtda denominatsiyani aniqlaydi. Ilova oddiy va intuitiv interfeysga ega bo'lib, foydalanuvchilar tez va mustaqil foydalanishlari mumkin.
             </p>
             <p>
-              CashVision helps users manage everyday financial tasks with greater confidence and independence. Whether receiving change, organizing cash, or verifying banknotes, the app provides fast and reliable identification.
+              CashVision foydalanuvchilarga kundalik moliyaviy vazifalarni ko'proq ishonch va mustaqillik bilan boshqarishga yordam beradi. Qaytim olish, naqd pulni tartiblash yoki banknotlarni tekshirish — ilova tez va ishonchli aniqlash imkonini beradi.
             </p>
             <div className="pt-2">
-              <p className="text-foreground font-medium mb-2">Key Features</p>
+              <p className="text-foreground font-medium mb-2">Asosiy imkoniyatlar</p>
               <ul className="space-y-1.5">
-                <li>📷 Real-time banknote recognition using your phone's camera</li>
-                <li>🔊 Voice feedback that clearly announces the detected currency value</li>
-                <li>⚡ Fast and accurate detection for everyday use</li>
-                <li>♿ Accessibility-first design optimized for blind and visually impaired users</li>
-                <li>📱 Simple and easy-to-use interface</li>
+                <li>📷 Telefoningiz kamerasi orqali real vaqtda banknotlarni aniqlash</li>
+                <li>🔊 Aniqlangan valyuta qiymatini aniq aytib beruvchi ovozli javob</li>
+                <li>⚡ Kundalik foydalanish uchun tez va aniq aniqlash</li>
+                <li>♿ Ko'rish qobiliyati cheklangan foydalanuvchilar uchun optimallashtirilgan dizayn</li>
+                <li>📱 Oddiy va qulay interfeys</li>
               </ul>
             </div>
-            <p>CashVision aims to make daily financial interactions easier, safer, and more accessible for everyone.</p>
+            <p>CashVision kundalik moliyaviy muomalalarni osonroq, xavfsizroq va hammaga qulay qilishga qaratilgan.</p>
           </div>
         </div>
 
         {/* Reviews */}
         <div className="mb-8">
-          <h2 className="text-lg font-display font-bold text-foreground mb-3">Ratings and reviews</h2>
+          <h2 className="text-lg font-display font-bold text-foreground mb-3">Baholar va sharhlar</h2>
           <div className="flex items-center gap-4 mb-5">
             <div className="text-center">
               <p className="text-5xl font-display font-bold text-foreground">4.5</p>
               <StarRating rating={4.5} size={16} />
-              <p className="text-xs text-muted-foreground mt-1">1,247 reviews</p>
+              <p className="text-xs text-muted-foreground mt-1">1 247 ta sharh</p>
             </div>
             <div className="flex-1 space-y-1">
               {[5, 4, 3, 2, 1].map((star) => {
@@ -123,13 +123,13 @@ const Index = () => {
 
         {/* App Info */}
         <div>
-          <h2 className="text-lg font-display font-bold text-foreground mb-3">App info</h2>
+          <h2 className="text-lg font-display font-bold text-foreground mb-3">Ilova ma'lumotlari</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {[
-              { label: "Version", value: "1.0.0" },
-              { label: "Updated", value: "Jul 16, 2025" },
-              { label: "Size", value: "99.1 MB" },
-              { label: "Category", value: "Productivity" },
+              { label: "Versiya", value: "1.0.0" },
+              { label: "Yangilangan", value: "2025-yil 16-iyul" },
+              { label: "Hajmi", value: "99.1 MB" },
+              { label: "Turkum", value: "Samaradorlik" },
             ].map((item) => (
               <div key={item.label} className="bg-surface rounded-lg p-3">
                 <p className="text-xs text-muted-foreground mb-0.5">{item.label}</p>
