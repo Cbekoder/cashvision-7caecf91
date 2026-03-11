@@ -36,7 +36,7 @@ const Index = () => {
             <div className="flex items-center gap-2 mt-2">
               <span className="text-sm font-medium text-foreground">4.5</span>
               <StarRating rating={4.5} />
-              <span className="text-sm text-muted-foreground">1,247 reviews</span>
+              <span className="text-sm text-muted-foreground">1 247 ta sharh</span>
             </div>
             <p className="text-xs text-muted-foreground mt-1">99.1 MB</p>
           </div>
