@@ -123,13 +123,13 @@ const Index = () => {
 
         {/* App Info */}
         <div>
-          <h2 className="text-lg font-display font-bold text-foreground mb-3">App info</h2>
+          <h2 className="text-lg font-display font-bold text-foreground mb-3">Ilova ma'lumotlari</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {[
-              { label: "Version", value: "1.0.0" },
-              { label: "Updated", value: "Jul 16, 2025" },
-              { label: "Size", value: "99.1 MB" },
-              { label: "Category", value: "Productivity" },
+              { label: "Versiya", value: "1.0.0" },
+              { label: "Yangilangan", value: "2025-yil 16-iyul" },
+              { label: "Hajmi", value: "99.1 MB" },
+              { label: "Turkum", value: "Samaradorlik" },
             ].map((item) => (
               <div key={item.label} className="bg-surface rounded-lg p-3">
                 <p className="text-xs text-muted-foreground mb-0.5">{item.label}</p>

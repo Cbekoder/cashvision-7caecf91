@@ -33,7 +33,7 @@ const InstallButton = ({ apkUrl, sticky = false }: InstallButtonProps) => {
     >
       {state === "idle" ? "O'rnatish" : (
         <span className="flex items-center justify-center gap-2">
-          Downloading
+          Yuklab olinmoqda
           <span className="flex gap-0.5">
             <span className="animate-bounce" style={{ animationDelay: "0ms" }}>.</span>
             <span className="animate-bounce" style={{ animationDelay: "150ms" }}>.</span>
