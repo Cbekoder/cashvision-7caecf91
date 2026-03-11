@@ -11,10 +11,10 @@ import screenshot4 from "@/assets/screenshot-4.png";
 const APK_URL = "/CashVision.apk";
 
 const reviews = [
-  { name: "Alex M.", rating: 5, text: "This app is a lifesaver! It instantly identifies bills and reads them out loud. Highly recommend for anyone with low vision.", date: "Jan 15, 2026" },
-  { name: "Sarah K.", rating: 4, text: "Works very well in good lighting. Sometimes struggles in the dark, but overall fantastic accessibility tool.", date: "Feb 2, 2026" },
-  { name: "Mohammed R.", rating: 5, text: "Finally an app that actually works for currency recognition. The voice feedback is clear and fast.", date: "Feb 28, 2026" },
-  { name: "Linda T.", rating: 5, text: "My grandmother uses this daily. She can now independently verify her change at the store. Thank you!", date: "Mar 5, 2026" },
+  { name: "Ali M.", rating: 5, text: "Bu ilova juda foydali! Pullarni bir zumda aniqlaydi va ovozli aytib beradi. Ko'rish qobiliyati past bo'lganlarga tavsiya qilaman.", date: "2026-yil 15-yan" },
+  { name: "Sarvinoz K.", rating: 4, text: "Yaxshi yoritilgan joyda juda yaxshi ishlaydi. Ba'zan qorong'ida qiyinchilik bo'ladi, lekin umuman ajoyib vosita.", date: "2026-yil 2-fev" },
+  { name: "Muhammad R.", rating: 5, text: "Nihoyat valyutani aniqlash uchun haqiqatan ishlaydi. Ovozli javob tez va aniq.", date: "2026-yil 28-fev" },
+  { name: "Dilnoza T.", rating: 5, text: "Buvim har kuni foydalanadi. Endi do'konda pulni mustaqil tekshira oladi. Rahmat!", date: "2026-yil 5-mar" },
 ];
 
 const Index = () => {
