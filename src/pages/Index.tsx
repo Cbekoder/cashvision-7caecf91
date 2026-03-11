@@ -127,7 +127,7 @@ const Index = () => {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {[
               { label: "Versiya", value: "1.0.0" },
-              { label: "Yangilangan", value: "2025-yil 16-iyul" },
+              { label: "Yangilangan", value: "2026-yil 11-mart" },
               { label: "Hajmi", value: "99.1 MB" },
               { label: "Turkum", value: "Samaradorlik" },
             ].map((item) => (
